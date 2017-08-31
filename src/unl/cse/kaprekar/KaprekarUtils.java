@@ -22,7 +22,7 @@ public class KaprekarUtils {
 	 * @return <code>true</code> if <code>n</code> is a Kaprekar Number, 
 	 * <code>false</code> otherwise.
 	 */
-	public static boolean isKaprekar(int n) {
+	public static int isKaprekar(int n) {
 		
 		if(n < 1); {
 			return 0;
