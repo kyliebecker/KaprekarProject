@@ -3,7 +3,6 @@ package unl.cse.kaprekar;
 public class KaprekarDemo {
 
 	public static void main(String args[]) {
-		//Alli
 		if(args.length != 1) {
 			System.err.println("Usage: KaprekarDemo n");
 			System.exit(1);
