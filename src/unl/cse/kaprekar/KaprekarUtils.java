@@ -23,14 +23,14 @@ public class KaprekarUtils {
 	 * <code>false</code> otherwise.
 	 */
 	public static boolean isKaprekar(int n) {
-		
+		 
 		if(n < 1) {
 			return false;
 		} 
 		
 		//we use a long to accommodate larger squares
-		long square = pow(n,2);
-		int numDigits = (int) Math.log10(n) + 1;
+		long square = (long) pow(n,2);
+		int numDigits = (int) Math.log10(square) + 1;
 		long modulus = 1;
 		long first, second;
 		for(int i=1; i<=numDigits; i++) {
