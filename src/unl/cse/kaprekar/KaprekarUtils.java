@@ -45,6 +45,7 @@ public class KaprekarUtils {
 			   first + second == n) {
 				return true;
 			}
+		
 		}
 	
 		return false;
