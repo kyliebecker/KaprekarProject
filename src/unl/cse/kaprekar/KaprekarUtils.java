@@ -40,11 +40,12 @@ public class KaprekarUtils {
 			if(second==0) {
 				return false;
 			}
+			
 			if(first > 0 &&
 			   first + second == n) {
 				return true;
 			}
-		}
+	
 		return false;
 		
 	}
