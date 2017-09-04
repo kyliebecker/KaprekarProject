@@ -29,7 +29,7 @@ public class KaprekarUtils {
 		} 
 		
 		//we use a long to accommodate larger squares
-		long square = (long) pow(n,2);
+		long square = (long) Math.pow(n,2);
 		int numDigits = (int) Math.log10(square) + 1;
 		long modulus = 1;
 		long first, second;
