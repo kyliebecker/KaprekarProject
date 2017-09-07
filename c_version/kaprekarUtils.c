@@ -31,7 +31,7 @@ int isKaprekar(int n) {
   int i;
   long square = (long) n * (long) n;
   int numDigits = (int) log10(square) + 1;
-  long modulus = 0;
+  long modulus = 1;
   long first, second;
   for(i=1; i<=numDigits; i++) {
     modulus *= 10;
@@ -41,10 +41,6 @@ int isKaprekar(int n) {
        first + second == n) {
       return 1;
     }
-    if(second == 0){
-      return 0;
-    }
   }
-  return 0;
-
+return 0;
 }
